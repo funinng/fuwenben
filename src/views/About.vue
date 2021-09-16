@@ -1,19 +1,20 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <counter></counter>
+    <person></person>
   </div>
 </template>
 <script>
+import Counter from "../components/counter";
+import person from "../components/person";
 export default {
-name:'about',
-data(){
-  return{
+  name: 'about',
+  components: {Counter,person},
+  data() {
+    return {}
+  },
 
+  created() {
   }
-}  ,
-created(){
-  console.log(123);
-  alert(123);
-}
 }
 </script>
