@@ -3,7 +3,7 @@
     <h1 style='color: #000;'>{{ msg }}</h1>
     {{count}}
     <button @click="countInstance">点击新增</button>
-    <a style='color: red'href="www.babble.com"></a>
+    <a style='color: red' href="https://www.babble.com"></a>
   </div>
 </template>
 
